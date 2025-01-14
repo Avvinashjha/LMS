@@ -132,21 +132,10 @@ The key interactions between the classes are as follows:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/library-management-system.git
-    cd library-management-system
+    git clone https://github.com/Avvinashjha/LMS.git
+    cd LMS
     ```
-
-2. Compile the project:
-    ```bash
-    javac -d bin src/**/*.java
-    ```
-
-3. Run the application:
-    ```bash
-    java -cp bin main.Main
-    ```
-
-4. Observe the demo:
+2. Observe the demo:
     - Watch examples of books being added, patrons being registered, and books being borrowed/returned in the console output.
 
 ### **TODO: How to Extend the System**
@@ -163,7 +152,7 @@ The key interactions between the classes are as follows:
 
 For a detailed UML diagram showing class relationships
 
-![img.png](img.png)
+![img.png](class_diagram.png)
 
 ---
 
