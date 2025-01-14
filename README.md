@@ -137,6 +137,44 @@ The key interactions between the classes are as follows:
     ```
 2. Observe the demo:
     - Watch examples of books being added, patrons being registered, and books being borrowed/returned in the console output.
+   
+### Demo Example
+
+```declarative
+=== Library Management System ===
+
+Adding books to inventory...
+Books added.
+
+Registering patrons...
+Patrons registered.
+
+Rajesh borrows 'Let Us C'...
+Book checked out by: Rajesh Kumar
+
+Priya borrows 'Java: The Complete Reference'...
+Book checked out by: Priya Sharma
+
+
+Priya returns 'Java: The Complete Reference'...
+Book returned successfully.
+
+
+Listing all books in inventory:
+Book [Title: Let Us C, Author: Yashavant Kanetkar, ISBN: 978-8120348645, Year: 1992, Available: false]
+Book [Title: Java: The Complete Reference, Author: Herbert Schildt, ISBN: 978-1260440232, Year: 2020, Available: true]
+Book [Title: Introduction to Algorithms, Author: Cormen et al., ISBN: 978-0262033848, Year: 2009, Available: true]
+Book [Title: Clean Code: A Handbook of Agile Software Craftsmanship, Author: Robert C. Martin, ISBN: 978-0132350884, Year: 2008, Available: true]
+
+
+Listing all registered patrons:
+Patron [Name: Rajesh Kumar, MemberID: P001, Email: rajesh.kumar@example.com, Borrowing History: [978-8120348645]]
+Patron [Name: Priya Sharma, MemberID: P002, Email: priya.sharma@example.com, Borrowing History: [978-1260440232]]
+Patron [Name: Anita Gupta, MemberID: P003, Email: anita.gupta@example.com, Borrowing History: []]
+
+
+System demo completed!
+```
 
 ### **TODO: How to Extend the System**
 1. **Add Multi-Branch Support**:

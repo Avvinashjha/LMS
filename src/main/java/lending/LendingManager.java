@@ -13,7 +13,7 @@ public class LendingManager {
         this.inventoryManager = inventoryManager;
     }
 
-    public boolean checkOutBook(String isbn, Patron patron){
+    public boolean checkoutBook(String isbn, Patron patron){
         Optional<Book> bookOptional = inventoryManager.searchBookByIsbn(isbn);
         if (bookOptional.isPresent()) {
             Book book = bookOptional.get();
