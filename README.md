@@ -157,6 +157,6 @@ For a detailed UML diagram showing class relationships
 ---
 
 ### **Author**
-- **Your Name**: [Avinash Jha](https://github.com/Avvinashjha)
+- [Avinash Jha](https://github.com/Avvinashjha)
 
 Feel free to contact me with questions, feedback.
